@@ -8,9 +8,9 @@ function lovaszHingeNonModularLoss(f)
 % f: a 4-inputs set function with the order f(\emptyset), f({i_1}), f({i_2}), f({i_1,i_2})
 % for a 2-outputs prediction problem.
 %
-%   x-axis: 1-g(y1*)+g(y1~)
-%   y-axis: 1-g(y2*)+g(y2~)
-%   e.g. pt f(1,2) at 1-g(y1*)+g(y1~)=1,1-g(y2*)+g(y2~)=0; etc
+%   x-axis: 1-g(y1*)
+%   y-axis: 1-g(y2*)
+%   e.g. pt f(1,2) at 1-g(y1*)=1,1-g(y2*)=0; etc
 %   y1*=y1 ,y2*~=y2, f(1,2)
 %   y1*~=y1,y2*=y2 , f(2,1)
 % 
