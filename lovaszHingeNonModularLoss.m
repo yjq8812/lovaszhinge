@@ -1,5 +1,5 @@
 function lovaszHingeNonModularLoss(f)
-% implementation by Jiaqian Yu (jiaqian.yu@centralesupelec.com)
+% implementation by Jiaqian Yu (jiaqian.yu@centralesupelec.fr)
 % J. Yu and M. B. Blaschko. Learning submodular losses with the Lovasz hinge. 
 % In Proceedings of the International Conference on Machine Learning, 2015.
 %
